@@ -1,0 +1,164 @@
+body, p, tr, button {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1em;
+}
+
+body {
+	background: url("../img/bg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #1a1a1d;
+	color: #ffffff;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.6em;
+	margin: 20px 20px 0px 20px;
+	text-shadow: 1px 1px 2px black;
+}
+
+h3 {
+	color: #5d77ff;
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0px 15px 15px 15px;
+	text-shadow: 1px 1px 2px black;
+}
+
+/* ---------- TABLE ---------- */
+th {
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+td.td_lock {
+	width: 40px;
+}
+
+td.td_share {
+	width: 40px;
+}
+
+td.td_serie {
+	width: 40px;
+}
+
+td.td_name {
+	text-align: left;
+}
+
+td.td_level {
+	width: 40px;
+}
+
+td.td_merged {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 30px 0 20px;
+}
+
+tr.odd {
+	background-color: #101010;
+}
+
+tr.even {
+	background-color: #151517;
+}
+
+/* ---------- HEADER ---------- */
+.summary {
+	float: right;
+	font-size: 0.8em;
+}
+
+.bonus_summary {
+	font-size: 0.8em;
+}
+
+.hard, .medium, .easy {
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.hard {
+	color: #d40010;
+}
+
+.easy {
+	color: #5ad400;
+}
+
+.medium {
+	color: #d49b00;
+}
+
+
+/* ---------- IMAGES ---------- */
+img {
+	width:12px;
+	height:12px;
+}
+
+.money_gold, .money_silver, .money_copper {
+	background: no-repeat right center;
+	padding-right: 15px;
+}
+
+.money_gold {
+	background-image: url(../img/img_money_gold.gif);
+}
+
+.money_silver {
+	background-image: url(../img/img_money_silver.gif);
+}
+
+.money_copper {
+	background-image: url(../img/img_money_copper.gif);
+}
+
+
+/* ---------- LINKS ---------- */
+a:link, a:visited {
+	color: #ff6c00;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #ffffff;
+}
+
+/* COLLAPSIBLE */
+.collapsible {
+	background-color: #151517;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1.2em;
+	margin-top: 5px;
+}
+
+.active, .collapsible:hover {
+	background-color: #101010;
+}
+
+.content {
+	padding: 10px;
+	display: none;
+	overflow: hidden;
+	background-color: #101010;
+}
